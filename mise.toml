@@ -1,0 +1,19 @@
+[tools]
+node = "25.2.1"
+pnpm = "10.26.1"
+
+[hooks]
+postinstall = "pnpm i"
+
+[tasks.start]
+description = "Run the application"
+run = "pnpm start"
+
+[tasks.dev]
+description = "Run the application in development mode"
+run = "pnpm dev"
+
+[tasks.format]
+description = "Format code with typecheck"
+run = ["pnpm format", "pnpm typecheck"]
+alias = "lint"
