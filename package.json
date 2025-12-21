@@ -4,6 +4,7 @@
 	"description": "",
 	"type": "module",
 	"scripts": {
+		"prepare": "lefthook install",
 		"dev": "node --watch src/index.ts",
 		"start": "node src/index.ts",
 		"format": "biome check --write --unsafe",
