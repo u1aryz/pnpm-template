@@ -4,7 +4,7 @@ Template for pnpm projects
 
 ## Dependencies
 
-- [mise](https://mise.jdx.dev/) (`mise settings experimental=true`)
+- [mise](https://mise.jdx.dev/)
 
 ## Getting started
 
